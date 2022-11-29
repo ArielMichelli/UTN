@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ejercicios 5</title>
+</head>
+
+<body>
+    <h1 id="titulo" onmouseover="modificarTitulo()" onmouseout="restablecerTitulo()">Hola Ejercicios 5:</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, ratione.</p>
+    <br>
+    <div class="botones">
+        <button id="boton" onclick="clickeame()">Hacer Click!</button>
+        <button id="boton" onclick="clickeame()">Hacer Click!</button>
+        <button id="boton" onclick="clickeame()">Hacer Click!</button>
+    </div><br><br>
+    <div class="botones2">
+        <button class="boton">Boton 1</button>
+        <button class="boton">Boton 2</button>
+        <button class="boton">Boton 3</button>
+    </div>
+    <div>
+        <h3>Contador de clicks Boton 1: <span id="cont1"></span></h3>
+        <h3>Contador de clicks Boton 2: <span id="cont2"></span></h3>
+        <h3>Contador de clicks Boton 3: <span id="cont3"></span></h3>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

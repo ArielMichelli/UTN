@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Complementarios</title>
+</head>
+
+<body>
+    <h2>EJERCICIOS COMPLEMENTARIOS:</h2>
+
+    <h1>Ejercicio 1</h1>
+    <div class="formulario">
+        <label for="pais">Name: </label>
+        <input type="text" id="pais">
+
+        <button type="button" onclick="valor_ingresado()">Enviar Pais</button>
+    </div>
+
+    <span>Pais Ingresado:</span>
+    <h2 id="valueInput"></h2>
+
+    <h1>Ejercicio 2</h1>
+    <button type="button" onclick="comprar_pantalon()">Comprar Pantalon</button>
+    <div>
+        <h3>Stock disponible en pantalones:</h3>
+        <p id="stock_pantalones"></p>
+        <h3>Monto total gastado en Pantalones:</h3>
+        <p id="monto_en_pantalones"></p>
+    </div>
+
+    <h1>Ejercicio 3</h1>
+    <div style="text-align: center;">
+        <h2 class="titulo" onmouseover="cambiarColor(this)">Soy el titulo</h2>
+        <p id="parrafo1">Parrafor 1 con id y tengo mas PESO</p>
+        <p>Parrafo 2 sin id y con menos peso</p>
+    </div>
+
+    <h1>Ejercicio 4</h1>
+    <div class="compras">
+        <button type="button" onclick="comprarRopa(this)" value="pantalon">Comprar Pantalon</button>
+        <button type="button" onclick="comprarRopa(this)" value="campera">Comprar Campera</button>
+        <button type="button" onclick="comprarRopa(this)" value="zapatilla">Comprar Zapatilla</button>
+        <button type="button" onclick="mostrarCarrito()" >VER CARRITO</button>
+
+    </div>
+    <h2>Articulos en el carrito:</h2>
+    <h2 class="lista_compras"></h2>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
